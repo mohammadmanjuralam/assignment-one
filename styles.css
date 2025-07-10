@@ -81,6 +81,7 @@ main{
     justify-content: center;
     align-items: center ;
     background-color: #f5f8ff;
+    flex-direction: column;
    
 }
 .action-section{
@@ -115,4 +116,33 @@ main{
     border-radius: 48px;
 }
 /* USER SECTION */
-
+.user-section{
+    padding: 50px 142px;
+margin-top: 116px
+}
+.user-container{
+    text-align: center;
+    padding: 50px 142px;
+    background-color:rgb(78,71,255,10%) ;
+    border-radius: 24px;
+}
+.user-title{
+    font-weight: bold;
+    font-size: 38px;
+}
+.sub-title-container{
+    display: flex;
+    justify-content: center;
+ margin-top: 40px;
+    gap: 161px;
+}
+.user-count{
+    font-weight: bold;
+    font-size: 80px;
+    color: #4E47FF;
+}
+.mini-sub{
+    font-weight:700 ;
+    font-size: 20px;
+    color: rgb(0,0,0,50%);
+}
