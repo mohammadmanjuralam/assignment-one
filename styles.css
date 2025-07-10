@@ -19,17 +19,20 @@
   font-style: normal;
 }
 body{
-    height: 100vh;
+    
     display: flex;
     justify-content: center;
+    flex-direction: column;
 }
 
 /* NAVBAR SECTION */
 
 .nav-container{
     height: 698px;
+   
     width: 100%;
     display: flex;
+    
     justify-content: flex-start;
     align-items: center;
     flex-direction: column;
@@ -54,17 +57,62 @@ body{
     border-radius: 10px;
     border: none;
 }
+
+/* BANNER-SECTION */
 .stay{
     margin-top: 37px;
     
 }
-.nav-heading{
+
+.banner-section{
     height: 237px;
     width: 905px;
     margin-top: 158px;
     text-align: center;
 }
-.nav-heading1{
+.banner-heading1{
     font-weight: bold;
     font-size: 65px;
 }
+
+/* ACTION SECTION */
+main{
+    display: flex;
+    justify-content: center;
+    align-items: center ;
+    background-color: #f5f8ff;
+   
+}
+.action-section{
+    height: 328px;
+    width: 1140px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+     margin-top: 116px;
+}
+.action-container{
+    display: flex;
+    flex-direction: column;
+    gap: 23px;
+
+}
+.action-title{
+    font-weight: bold;
+    font-size: 42px;
+    
+}
+.action-sub-title{
+    font-weight:700 ;
+    font-size: 24px;
+    line-height: 30px;
+}
+.livebtn{
+    height: 48px;
+    width: 229px;
+}
+.action-image{
+    border-radius: 48px;
+}
+/* USER SECTION */
+
