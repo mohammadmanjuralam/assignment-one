@@ -199,6 +199,9 @@ margin-top: 116px
     background-color:#ffffff;
     border-radius: 14px;
 }
+.review-sub-title{
+    color: rgb(30,30,30,100%);
+}
 .reviewe-photo{
     border-radius: 50%;
     height: 40px;
@@ -239,6 +242,9 @@ margin-top: 116px
 
 .optional-photo{
     border-radius: 48px;
+}
+.optional-sub-title{
+    color: rgb(0,0,0,50%);
 }
 
 /* FORM SECTION */
