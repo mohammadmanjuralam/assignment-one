@@ -169,6 +169,8 @@ margin-top: 116px
 }
 .feedback-title{
     text-align: center;
+    font-weight: bold;
+    font-size: 42px;
 }
 .card-container{
     display: flex;
@@ -176,7 +178,7 @@ margin-top: 116px
     gap: 20px;
     margin-top: 50px;
 }
-.reviewr-section{
+.reviewer-section{
     display: flex;
     justify-content: flex-start;
     align-items: center;
@@ -206,4 +208,24 @@ margin-top: 116px
     display: flex;
     flex-direction: column;
     margin-left: 15px;
+}
+/* OPTIONAL SECTION */
+.optional-section{
+    height: 697px;
+    width: 1140px;
+    background-color: #ffffff;
+    margin-top: 137px;
+    border-radius: 14px;
+}
+.optional-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 71px 150px;
+    gap: 20px;
+    
+}
+.optional-photo{
+    border-radius: 48px;
 }
