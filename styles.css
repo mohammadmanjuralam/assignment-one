@@ -201,6 +201,8 @@ margin-top: 116px
 }
 .reviewe-photo{
     border-radius: 50%;
+    height: 40px;
+    width: 40px;
 }
 .name{
     color: rgb(117,117,117,100%);
@@ -230,6 +232,11 @@ margin-top: 116px
     gap: 20px;
     
 }
+.optional-title{
+    font-weight: bold;
+    font-size: 50px;
+}
+
 .optional-photo{
     border-radius: 48px;
 }
