@@ -229,3 +229,44 @@ margin-top: 116px
 .optional-photo{
     border-radius: 48px;
 }
+
+/* FORM SECTION */
+.form-section{
+    height: 632px;
+    width: 1140px;
+    padding: 71px 0px;
+}
+.form-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+.form-title{
+    font-weight: bold;
+    font-size: 97px;
+}
+.main-form{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.form-input{
+    height: 70px;
+    width: 497px;
+    border-radius: 10px;
+    padding: 20px 32px;
+    border: none;
+}
+label{
+    font-weight: 700;
+    font-size: 18px;
+    margin-top: 19px;
+}
+textarea{
+    height: 135px;
+    width: 497px;
+    padding: 20px 32px;
+    border-radius: 10px;
+    border: none;
+}
