@@ -57,7 +57,10 @@ body{
     border-radius: 10px;
     border: none;
     transition: 0.5s;
+     font-weight: bold;
+    font-size: 16px;
 }
+
 .primary-btn:hover{
     padding: 12px 36px;
     color: rgb(0, 0, 0);
@@ -71,6 +74,7 @@ body{
 /* BANNER-SECTION */
 .stay{
     margin-top: 37px;
+   
     
 }
 
@@ -253,7 +257,7 @@ margin-top: 116px
 }
 .form-input{
     height: 70px;
-    width: 497px;
+    width: 430px;
     border-radius: 10px;
     padding: 20px 32px;
     border: none;
@@ -265,8 +269,50 @@ label{
 }
 textarea{
     height: 135px;
-    width: 497px;
+    width: 430px;
     padding: 20px 32px;
     border-radius: 10px;
     border: none;
+}
+.get{
+    padding: 19px 101px;
+    margin-top: 10px;
+    
+}
+.get:hover{
+    padding: 19px 101px;
+    margin-top: 10px;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+/* FOOTER SECTION */
+
+.footer-container{
+    height: 330px;
+    width: 100%;
+    text-align: center;
+    background-color: #ffffff;
+
+   
+}
+.footer-title{
+    margin-top: 104px;
+    font-weight:bolder;
+    font-size: 100px;
+    color:rgb(78,71,255,100%);
+}
+.footer-sub-title{
+    color: #8987A1;
+}
+ul{
+    display: flex;
+    justify-content: center;
+    gap: 48px;
+}
+ul li, a{
+    list-style: none;
+    text-decoration: none;
+    margin-top: 20px;
+    color: #8987A1;
 }
